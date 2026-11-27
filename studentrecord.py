@@ -257,7 +257,7 @@ def main() -> None:
         choice = input("Choose an option: ").strip()
 
         if choice == "0":
-            print("Goodbye! Records are saved.")
+            print("Thank you!")
             break
 
         action = ACTIONS.get(choice)
